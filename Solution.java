@@ -19,15 +19,7 @@ public class Solution
             obj.method2();
             obj.method3();
         }
-        catch (NullPointerException e)
-        {
-            printStack(e);
-        }
-        catch (IndexOutOfBoundsException e)
-        {
-            printStack(e);
-        }
-        catch (NumberFormatException e){
+        catch (Exception e){
             printStack(e);
         }
     }
